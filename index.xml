@@ -6,10 +6,19 @@
     <description>Recent content on 我的博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 28 Jan 2021 16:09:29 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 28 Jan 2021 17:43:37 +0800</lastBuildDate>
     
 	<atom:link href="https://stackwar.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>About</title>
+      <link>https://stackwar.github.io/about/</link>
+      <pubDate>Thu, 28 Jan 2021 17:43:37 +0800</pubDate>
+      
+      <guid>https://stackwar.github.io/about/</guid>
+      <description> author: stackwar about me  </description>
+    </item>
     
     <item>
       <title>Second</title>
