@@ -1,19 +1,16 @@
 <!DOCTYPE html>
 <html lang="zh-cn">
 <head>
-	<meta name="generator" content="Hugo 0.58.1" />
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="dns-prefetch" href="//cdn.jsdelivr.net" />
   <link rel="dns-prefetch" href="//www.google-analytics.com" />
   
-  <link rel="canonical" href="/" />
-  
-  <meta name="description" content="我的博客">
+  <link rel="canonical" href="/posts/first/" />
   
   <title>
 	  
-	    我的博客
+	    第一篇文章 | 我的博客
 	  
   </title>
 
@@ -44,22 +41,89 @@
 		</div>
 	</div>
 
-
-
-	<div class="uk-block uk-block-default">
-		<div class="uk-container uk-container-center">
-			<div class="uk-grid">
-				<div class="uk-width-large-1-10 uk-hidden-medium uk-hidden-small"></div>
-				<div id="articleContainer" class="uk-width-large-8-10 uk-width-medium-1-1 uk-width-small-1-1">
+<div class="uk-block uk-block-default">
+	<div class="uk-container uk-container-center">
+		<div class="uk-grid">
+			<div class="uk-width-large-1-10 uk-hidden-medium uk-hidden-small"></div>
+			<div class="uk-width-large-8-10 uk-width-medium-1-1 uk-width-small-1-1">
+				<article class="uk-article">
+					<h1 class="uk-article-title" style="font-size: 23px;">
+						第一篇文章
+					</h1>
 					
+					<p class="uk-article-meta">Posted on Fri, Nov 22, 2019 | </p>
 
           
+					
 
-				</div>
-				<div class="uk-width-large-1-10 uk-hidden-medium uk-hidden-small"></div>
+<h1 id="测试文章">测试文章</h1>
+
+<p>这是篇测试文章</p>
+
+          
+				</article>
 			</div>
+			<div class="uk-width-large-1-10 uk-hidden-medium uk-hidden-small"></div>
 		</div>
+    <div class="uk-grid">
+      <div class="uk-width-large-1-10"></div>
+      <div class="uk-width-large-8-10">
+        <ul class="uk-pagination">
+          
+          
+            <li class="uk-float-right"><a href="https://stackwar.github.io/posts/second/">Next &gt;</a></li>
+          
+        </ul>
+      </div>
+      <div class="uk-width-large-1-10"></div>
+    </div>
+    <div class="uk-grid">
+      <div class="uk-width-large-1-10"></div>
+      <div class="uk-width-large-8-10">
+        <div class="uk-panel uk-panel-box uk-panel-box-secondary">
+          <h3 class="uk-panel-title">Related Posts</h3>
+          
+          
+          <ul class="uk-list uk-list-striped">
+            
+              
+              
+              
+            
+              
+              
+              
+            
+              
+              
+              
+            
+              
+              
+              
+            
+              
+              
+              
+            
+              
+              
+              
+            
+          </ul>
+        </div>
+      </div>
+      <div class="uk-width-large-1-10"></div>
+    </div>
+    <div class="uk-grid">
+      <div class="uk-width-large-1-10"></div>
+      <div class="uk-width-large-8-10">
+        <div id="disqus_thread" data-uk-scrollspy></div>
+      </div>
+      <div class="uk-width-large-1-10"></div>
+    </div>
 	</div>
+</div>
 
 	<div id="footer" class="uk-block uk-block-large uk-block-muted" data-uk-scrollspy="{repeat: true, delay: 600}">
 		<div class="uk-container uk-container-center">
@@ -95,16 +159,4 @@
 </html>
 
 
-<script>
-(function () {
-  var loadPage =  1 ;
-  var totalPages =  0 ;
-  $('#footer[data-uk-scrollspy]').on('inview.uk.scrollspy', function () {
-    loadPage = loadPage + 1;
-    if (loadPage > totalPages) { return; }
-    $.get('/page/' + loadPage, function (result) {
-      $('#articleContainer').append('<hr class="uk-grid-divider">').append($(result).find('article'));
-    })
-  })
-})();
-</script>
+

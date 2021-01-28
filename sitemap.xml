@@ -3,11 +3,27 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://stackwar.github.io/categories/</loc>
+    <loc>https://stackwar.github.io/posts/</loc>
+    <lastmod>2021-01-28T16:09:29+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://stackwar.github.io/posts/second/</loc>
+    <lastmod>2021-01-28T16:09:29+08:00</lastmod>
   </url>
   
   <url>
     <loc>https://stackwar.github.io/</loc>
+    <lastmod>2021-01-28T16:09:29+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://stackwar.github.io/posts/first/</loc>
+    <lastmod>2019-11-22T11:42:31+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://stackwar.github.io/categories/</loc>
   </url>
   
   <url>
